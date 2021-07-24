@@ -1,3 +1,6 @@
+const { StatusCodes } = require('http-status-codes');
+const { catchAsync } = require('../utils');
+
 const data = {
   products: [
     {
@@ -161,7 +164,7 @@ module.exports = {
     const {
       params: { id },
     } = req;
-    const response = data.products.find(e => e.id === id);
+    const response = data.products.find((e) => e.id === id);
     return res.status(StatusCodes.OK).json(response);
   }),
 };
