@@ -2,19 +2,13 @@ const yup = require('yup');
 
 const id = {
   params: yup.object().shape({
-    id: yup.number().integer(),
+    id: yup.string(),
   }),
 };
 const list = {
   query: yup.object().shape({
-    page: yup
-      .number()
-      .integer()
-      .default(1),
-    perPage: yup
-      .number()
-      .integer()
-      .default(10),
+    page: yup.number().integer().default(1),
+    perPage: yup.number().integer().default(10),
     sortBy: yup
       .string()
       .default('createdAt:desc')
