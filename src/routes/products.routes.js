@@ -5,8 +5,8 @@ const {
   validationSchemas: { find },
 } = require('../validations');
 
-router.get('/offers', validate(find.list), productController.offers);
 router.get('/', validate(find.list), productController.get);
 router.get('/:id', validate(find.id), productController.offers);
+router.get('/offers', validate(find.list), productController.offers);
 
 module.exports.products = router;
