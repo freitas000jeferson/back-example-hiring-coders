@@ -11,7 +11,7 @@ const data = {
       price: 200.0,
       length: [39, 40, 41, 42, 45],
       color: ['red', 'blue', 'green'],
-      rate: 5,
+      rate: 3,
       deliveryDate: 20,
       isRebate: true,
       image:
@@ -39,7 +39,7 @@ const data = {
       price: 230.0,
       length: [39, 40, 41, 42, 45],
       color: ['red', 'blue', 'green'],
-      rate: 5,
+      rate: 4,
       deliveryDate: 20,
       isRebate: true,
       image: 'https://i.zst.com.br/thumbs/12/2a/37/1296513572.jpg',
@@ -52,7 +52,7 @@ const data = {
       price: 200.0,
       length: [39, 40, 41, 42, 45],
       color: ['red', 'blue', 'green'],
-      rate: 5,
+      rate: 1,
       deliveryDate: 20,
       isRebate: true,
       image:
@@ -66,7 +66,7 @@ const data = {
       price: 100.0,
       length: [39, 40, 41, 42, 45],
       color: ['red', 'blue', 'green'],
-      rate: 5,
+      rate: 2,
       deliveryDate: 20,
       isRebate: false,
       image:
@@ -80,7 +80,7 @@ const data = {
       price: 200.0,
       length: [39, 40, 41, 42, 45],
       color: ['red', 'blue', 'green'],
-      rate: 5,
+      rate: 4,
       deliveryDate: 20,
       isRebate: true,
       image:
@@ -108,7 +108,7 @@ const data = {
       price: 500.0,
       length: [39, 40, 41, 42, 45],
       color: ['red', 'blue', 'green'],
-      rate: 5,
+      rate: 3,
       deliveryDate: 20,
       isRebate: false,
       image:
@@ -124,7 +124,7 @@ const data = {
       price: 200.0,
       length: [39, 40, 41, 42, 45],
       color: ['red', 'blue', 'green'],
-      rate: 5,
+      rate: 4,
       deliveryDate: 20,
       isRebate: true,
       image:
@@ -152,7 +152,7 @@ const data = {
       price: 230.0,
       length: [39, 40, 41, 42, 45],
       color: ['red', 'blue', 'green'],
-      rate: 5,
+      rate: 3,
       deliveryDate: 20,
       isRebate: true,
       image:
