@@ -6,7 +6,7 @@ const {
 } = require('../validations');
 
 router.get('/offers', validate(find.list), productController.offers);
-router.get('/', validate(find.list), productController.get);
 router.get('/:id', validate(find.id), productController.findbyId);
+router.get('/', validate(find.list), productController.get);
 
 module.exports.products = router;

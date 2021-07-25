@@ -114,6 +114,62 @@ const data = {
       image:
         'https://cdnv2.moovin.com.br/rainhacalcados/imagens/produtos/det/tenis-masculino-adidas-runfalcon-d986d6369e9e9e39c995ff7338eacf4b.png',
     },
+    {
+      id: 9,
+      name: 'Tenis nike',
+      description:
+        "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      price: 200.0,
+      length: [39, 40, 41, 42, 45],
+      color: ['red', 'blue', 'green'],
+      rate: 4,
+      deliveryDate: 20,
+      isRebate: true,
+      image:
+        'https://cdnv2.moovin.com.br/belinhacalcados/imagens/produtos/det/tenis-nike-943306-404-revolution-4-gs-b1d89c98bebca22f99f63506292fa35d.png',
+    },
+    {
+      id: 10,
+      name: 'Tenis nike',
+      description:
+        "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      price: 1050.0,
+      length: [39, 40, 41, 42, 45],
+      color: ['red', 'blue', 'green'],
+      rate: 5,
+      deliveryDate: 20,
+      isRebate: false,
+      image:
+        'https://cdnv2.moovin.com.br/girardirun/imagens/produtos/det/tenis-adidas-solar-blaze-41bdfe1511f8b1e690475708d11cd5b7.png',
+    },
+    {
+      id: 11,
+      name: 'Tenis nike',
+      description:
+        "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      price: 230.0,
+      length: [39, 40, 41, 42, 45],
+      color: ['red', 'blue', 'green'],
+      rate: 3,
+      deliveryDate: 20,
+      isRebate: true,
+      image:
+        'https://e7.pngegg.com/pngimages/770/886/png-clipart-sneakers-nike-air-max-shoe-tennis-nike.png',
+    },
+    {
+      id: 12,
+      name: 'Tenis nike',
+      description:
+        "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      price: 200.0,
+      length: [39, 40, 41, 42, 45],
+      color: ['red', 'blue', 'green'],
+      rate: 5,
+      deliveryDate: 20,
+      isRebate: true,
+      image:
+        'https://images.lojanike.com.br/1024x1024/produto/tenis-nike-alphadunk-masculino-BQ5401-900-1.png',
+    },
   ],
   offers: [
     {
