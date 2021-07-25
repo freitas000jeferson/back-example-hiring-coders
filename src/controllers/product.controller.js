@@ -233,17 +233,21 @@ const data = {
 module.exports = {
   get: catchAsync(async (req, res) => {
     const response = data.products;
+    console.log('GET');
     return res.status(StatusCodes.OK).json(response);
   }),
   offers: catchAsync(async (req, res) => {
     const response = data.offers;
+    console.log('OFFERS');
     return res.status(StatusCodes.OK).json(response);
   }),
   findbyId: catchAsync(async (req, res) => {
     const {
       params: { id },
     } = req;
-    const response = data.products.find(e => e.id === id);
+    console.log('FindById');
+    const response = data.products.find((e) => e.id === id);
+    // const response = { id };
     return res.status(StatusCodes.OK).json(response);
   }),
 };

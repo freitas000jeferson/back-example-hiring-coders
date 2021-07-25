@@ -2,7 +2,7 @@ const yup = require('yup');
 
 const id = {
   params: yup.object().shape({
-    id: yup.string(),
+    id: yup.number().integer(),
   }),
 };
 const list = {
