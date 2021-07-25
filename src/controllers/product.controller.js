@@ -69,7 +69,8 @@ const data = {
       rate: 5,
       deliveryDate: 20,
       isRebate: false,
-      image: 'asd',
+      image:
+        'https://a-static.mlcdn.com.br/618x463/tenis-adidas-coreracer-masculino/netshoes/nqq-4635-c67-41/2b9db73105382aa5ed0e1718ef426abd.jpg',
     },
     {
       id: 6,
