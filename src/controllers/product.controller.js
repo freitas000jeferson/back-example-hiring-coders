@@ -4,7 +4,7 @@ const { catchAsync } = require('../utils');
 const data = {
   products: [
     {
-      id: '001',
+      id: 1,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -16,7 +16,7 @@ const data = {
       isRebate: true,
     },
     {
-      id: '002',
+      id: 2,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -28,7 +28,7 @@ const data = {
       isRebate: false,
     },
     {
-      id: '003',
+      id: 3,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -40,7 +40,7 @@ const data = {
       isRebate: true,
     },
     {
-      id: '004',
+      id: 4,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -52,7 +52,7 @@ const data = {
       isRebate: true,
     },
     {
-      id: '005',
+      id: 5,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -64,7 +64,7 @@ const data = {
       isRebate: false,
     },
     {
-      id: '006',
+      id: 6,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -76,7 +76,7 @@ const data = {
       isRebate: true,
     },
     {
-      id: '007',
+      id: 7,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -88,7 +88,7 @@ const data = {
       isRebate: false,
     },
     {
-      id: '008',
+      id: 8,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -102,7 +102,7 @@ const data = {
   ],
   offers: [
     {
-      id: '001',
+      id: 1,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -114,7 +114,7 @@ const data = {
       isRebate: true,
     },
     {
-      id: '002',
+      id: 2,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -126,7 +126,7 @@ const data = {
       isRebate: false,
     },
     {
-      id: '003',
+      id: 3,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -138,7 +138,7 @@ const data = {
       isRebate: true,
     },
     {
-      id: '004',
+      id: 4,
       name: 'Tenis nike',
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
